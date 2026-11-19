@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FAQ — Cohiernel et fils</title>
+  <meta name="description" content="Questions fréquentes sur les cosmétiques et biocarburants Cohiernel et fils.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><img src="images/logo.png" alt="" width="46" height="46"><span>Cohiernel <em>et fils</em></span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav id="menu" class="main-nav" aria-label="Navigation principale">
+        <a href="index.html#beaute">Beauté</a>
+        <a href="index.html#carburants">Biocarburants</a>
+        <a href="index.html#a-propos">À propos</a>
+        <a href="index.html#newsletter">Newsletter</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <form class="search" role="search" action="index.html#produits" method="get">
+        <label class="sr-only" for="q">Rechercher un produit</label>
+        <input id="q" name="q" type="search" placeholder="Rechercher un produit…" autocomplete="off">
+        <button type="submit" aria-label="Lancer la recherche">🔍</button>
+      </form>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a> / FAQ</nav>
+
+    <article class="legal">
+      <h1>Questions fréquentes</h1>
+      <!-- Réponses d'exemple : à adapter à votre fonctionnement réel -->
+
+      <h2 class="faq-group">Nos soins</h2>
+
+      <details>
+        <summary>Du jus de rillettes dans un soin de beauté, vraiment ?</summary>
+        <p>Oui. Le jus de rillettes est un co-produit local que nous valorisons au lieu de le jeter, c'est notre façon de dire « ici, rien ne se perd ». Il est associé à des ingrédients plus classiques comme le karité, la cire d'abeille ou l'argile verte.</p>
+      </details>
+
+      <details>
+        <summary>Vos produits sont-ils végétariens ou vegan ?</summary>
+        <p>Non : le jus de rillettes est d'origine animale, et le baume lèvres contient de la cire d'abeille. Ils ne conviennent donc pas à un mode de vie végétarien ou vegan.</p>
+      </details>
+
+      <details>
+        <summary>Puis-je avoir une réaction allergique ?</summary>
+        <p>Comme pour tout cosmétique, nous vous conseillons de vérifier la liste des ingrédients sur l'emballage et de tester le produit sur une petite zone avant la première utilisation. En cas de doute ou de peau sensible, demandez conseil à un professionnel de santé.</p>
+      </details>
+
+      <h2 class="faq-group">Nos biocarburants</h2>
+
+      <details>
+        <summary>Puis-je utiliser le Plein Malin B30 sur mon tracteur ?</summary>
+        <p>Il est destiné aux tracteurs et moissonneuses, mais la compatibilité dépend de votre constructeur. Vérifiez les préconisations de votre engin et contactez-nous : la fiche technique et les conditions de garantie sont en cours de validation.</p>
+      </details>
+
+      <details>
+        <summary>Et le Plein Pur B100 ?</summary>
+        <p>Il est réservé aux engins agréés B100, notamment les machines hybrides récentes. Pour les outils à moteur (tronçonneuse, groupe électrogène), il ne s'utilise qu'après test de compatibilité. L'homologation est à confirmer.</p>
+      </details>
+
+      <details>
+        <summary>Combien coûtent vos carburants ?</summary>
+        <p>Le prix dépend du cours : il est défini au moment de votre demande. Utilisez le formulaire de contact pour obtenir un devis.</p>
+      </details>
+
+      <h2 class="faq-group">Commandes et infos pratiques</h2>
+
+      <details>
+        <summary>Où puis-je acheter vos produits ?</summary>
+        <p>Pour le moment, écrivez-nous via le <a href="index.html#contact">formulaire de contact</a> pour passer commande ou connaître les points de vente. <span class="todo">À adapter : boutique en ligne, marchés, revendeurs…</span></p>
+      </details>
+
+      <details>
+        <summary>Les prix affichés sont-ils définitifs ?</summary>
+        <p>Les prix indiqués sont des prix indicatifs, ils peuvent évoluer. Le prix final vous est confirmé lors de la commande.</p>
+      </details>
+
+      <details>
+        <summary>Comment me désinscrire de la newsletter ?</summary>
+        <p>Un lien de désinscription figure en bas de chaque e-mail. Vous pouvez aussi nous écrire, et nous nous en occupons.</p>
+      </details>
+
+      <details>
+        <summary>Je n'ai pas trouvé ma réponse</summary>
+        <p>Pas de souci : écrivez-nous depuis la page <a href="index.html#contact">Contact</a>, on vous répond avec plaisir.</p>
+      </details>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html"><img src="images/logo.png" alt="" width="46" height="46"><span>Cohiernel <em>et fils</em></span></a>
+        <p>Cosmétiques et biocarburants à base de jus de rillettes. Fabriqué en Sarthe, en famille.</p>
+      </div>
+      <div>
+        <p class="footer-title">Informations</p>
+        <ul>
+          <li><a href="mentions-legales.html">Mentions légales</a></li>
+          <li><a href="politique-confidentialite.html">Politique de confidentialité</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-title">Où nous suivre</p>
+        <ul>
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a></li>
+        </ul>
+        <p class="hashtags">#cohiernelEtFils<br>#beautelocale<br>#madeinsarthe</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">© 2026 Cohiernel et fils — Tous droits réservés</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
